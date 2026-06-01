@@ -1,0 +1,1 @@
+Always use Framer Motion for all animations and transitions. Never use CSS keyframes, CSS transitions for interactive animations, or manual JavaScript scroll animation logic from scratch.

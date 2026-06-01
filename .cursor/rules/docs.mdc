@@ -1,0 +1,1 @@
+Always use Context7 before writing or modifying code that involves any external library or framework including Next.js, Tailwind, Framer Motion, Supabase, Resend, Upstash, Zod, and next-intl. Fetch current docs before generating code without being asked.

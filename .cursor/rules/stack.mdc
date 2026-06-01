@@ -1,0 +1,9 @@
+Client web project. Stack: Next.js App Router, TypeScript, Tailwind CSS, shadcn/ui, Framer Motion. Rules:
+- Never hardcode colors or fonts in components — always use CSS variables defined in globals.css and documented in brand.md
+- Never use a plain <img> tag — always use next/image
+- Never load fonts from CDN — always local woff2 in /public/fonts/
+- Never commit .env.local — run git status before every commit
+- Always validate public forms server-side with Zod
+- Always rate-limit public API routes with Upstash
+- Always use the Next.js App Router — never Pages Router patterns
+- middleware.ts only — never proxy.ts

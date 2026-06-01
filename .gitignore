@@ -1,0 +1,11 @@
+# Env — only .env.example is committed
+.env*
+!.env.example
+
+# System
+.DS_Store
+
+# Build
+.next/
+node_modules/
+.open-next/
